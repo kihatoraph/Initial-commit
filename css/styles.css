@@ -6,6 +6,39 @@ body {
 
 }
 .container{
-    height: 100vh;
-    display:flex;
+    height: 50vh;
+    display:flex1;
+}
+section {
+    height: 100%;
+
+    display: flex;
+
+    align-items: center;
+    flex:1;
+    justify-content: center;
+    transition-duration: 2s;
+    background-color: brown;
+
+}
+section h1 {
+    padding:12px 32px;
+}
+.var1 {
+    background-color:burlywood;
+    background-image: url("https://images.pexels.com/photos/398532/pexels-photo-398532.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+.var2 {
+    background-color: burlywood;
+    background-image: url("https://images.pexels.com/photos/2105038/pexels-photo-2105038.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat: no-repeat;
+
+}
+.var3 {
+    background-image: url("https://images.pexels.com/photos/373892/pexels-photo-373892.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat: no-repeat;
+
+}
+section.hover {
+    flex:2;
 }
